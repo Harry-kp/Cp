@@ -1,9 +1,3 @@
-Q link - https://codeforces.com/contest/530/problem/G
-
-cpp solution
-
-
-
 #include <bits/stdc++.h>
 using namespace std;
  
