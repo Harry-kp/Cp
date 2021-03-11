@@ -128,9 +128,6 @@ int32_t main(){
     st.init(n);
     st.build(A);
 
-    // for(int i = 0;i<st.mins.size();i++)
-    // cout<<st.mins[i].F<<" "<<st.mins[i].S<<'\n';
-
     int a,b,c;
     while(m--){
         cin>>a>>b>>c;
