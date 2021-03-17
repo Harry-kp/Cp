@@ -27,7 +27,6 @@ for _ in range(ii()):
 
                 
         
-        # prev = s[i]
     print(c)
 
 
