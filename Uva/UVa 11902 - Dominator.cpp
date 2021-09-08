@@ -59,11 +59,12 @@ void print_line(int n)
 int32_t main()
 {
     fastio;
-    int t = 1,tt = 0;
+    int t = 1, tt = 0;
     cin >> t;
 
     while (t--)
-    {   tt++;
+    {
+        tt++;
         int n;
         cin >> n;
         char ans[n][n];
@@ -99,11 +100,11 @@ int32_t main()
         }
 
         // printing
-        cout << "Case "<<tt<<":\n";
+        cout << "Case " << tt << ":\n";
         print_line(n);
         for (int i = 0; i < n; i++)
         {
-            cout<<'|';
+            cout << '|';
             for (int j = 0; j < n; j++)
             {
                 cout << ans[i][j] << "|";
